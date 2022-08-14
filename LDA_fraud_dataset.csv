@@ -1,0 +1,7 @@
+,precision mean (%),precision std (%),recall mean (%),recall std (%),f1 mean (%),f1 std (%),accuracy mean (%),accuracy std (%),balanced_accuracy mean (%),balanced_accuracy std (%),matthews_corrcoef mean (%),matthews_corrcoef std (%),accuracy mean (%),accuracy std (%),precision mean (%),precision std (%),recall mean (%),recall std (%),f1 mean (%),f1 std (%),accuracy mean (%),accuracy std (%),balanced_accuracy mean (%),balanced_accuracy std (%),matthews_corrcoef mean (%),matthews_corrcoef std (%)
+LR,96.91,3.93,94.78,3.92,95.8,3.39,98.0,1.5,96.89,2.27,94.51,4.32,98.0,1.5,,,,,,,,,,,,
+KNN,97.61,3.14,95.95,6.21,96.62,3.54,98.5,1.35,97.56,3.08,95.76,4.14,98.5,1.35,,,,,,,,,,,,
+CART,95.32,4.83,95.32,4.22,94.88,3.63,97.75,1.35,97.22,2.09,94.01,3.94,97.5,1.37,,,,,,,,,,,,
+NB,96.39,4.83,92.97,6.36,94.55,4.87,97.5,2.09,95.9,3.51,93.01,6.1,97.5,2.09,,,,,,,,,,,,
+SVM,95.7,3.89,97.38,2.71,96.49,2.6,98.25,1.27,97.93,1.57,95.36,3.41,98.25,1.27,,,,,,,,,,,,
+qsvc,,,,,,,,,,,,,,,95.69,3.93,91.82,7.78,93.56,5.21,97.12,1.68,95.25,3.95,91.83,5.97
