@@ -1,0 +1,46 @@
+# Baseline 
+
+\begin{table*}[!ht]
+    \centering
+    \begin{tabular}{c|c|c|c|c|c}
+         & Precision (\%) & Recall (\%) & f1-score (\%) &  Matthews & Balanced \\ 
+         & & & & corcorref (\%)  & Accuracy (\%)\\
+LR & 66.83 (6.93) & 68.04 (7.15) &  67.33 (6.55) & 32.95 (12.06) & 66.48 (6.03) \\
+KNN & 56.44 (6.9) & 38.38 (8.04) &  45.14 (6.68) & 8.01 (5.38) & 53.82 (2.65) \\
+CART & 54.12 (5.37) & 52.56 (8.82) &  53.22 (7.0) & 6.22 (9.75) & 53.1 (4.88) \\
+NB & \textbf{72.29} (6.07) & \textbf{71.11} (6.79) &  \textbf{71.55} (5.65) & \textbf{42.61} (10.56) & \textbf{71.31} (5.3) \\
+SVM & 63.91 (7.84) & 63.42 (7.97) &  63.35 (6.79) & 26.19 (10.71) & 63.06 (5.35) \\
+\end{tabular}
+    \caption{Baseline ML models for the Santander dataset. The results for logistic regression (LR), k-Nearest Neighbors (KNN), Naïve Bayes (NB) and Support Vector Machine (SVM) are computed with k-fold cross-validation for 10 folds. }
+    \label{tab:base-santander }
+\end{table*}
+
+\begin{table*}[!ht]
+    \centering
+    \begin{tabular}{c|c|c|c|c|c}
+         & Precision (\%) & Recall (\%) & f1-score (\%) &  Matthews & Balanced \\ 
+         & & & & corcorref (\%)  & Accuracy (\%)\\
+QSVC (SVD) & 57.34 (12.18) & 33.81 (5.55) &  41.79 (4.86) & 7.21 (11.68) & 53.11 (5.15) \\
+VQA (SVD) & 62.50 & 58.82 & 60.61 &  6.89 & 53.49 \\
+QSVC (PCA) & \\
+VQA (PCA) & 67.39 & 25.41 & 36.90  & 7.16 & 53.09 \\ 
+QSVC (SKPP) & 62.96 (12.97) & 66.30 (6.73) &  63.87 (8.41) & 24.24 (14.15) & 62.2 (7.22) \\
+VQA (SKPP) &  69.52 & 66.36 & 67.91 &3 0.69 &  65.40  \\
+QSVC (LDA) & 75.95 (3.39) & 77.26 (6.26) &  76.45 (3.76) & 51.6 (7.54) & 75.71 (3.78) \\ 
+VQA (LDA) & 75.00 & 76.36 & 75.68 & 45.35 & 72.63 \\
+
+\end{tabular}
+    \caption{Quantum models applied on the santander in combination with the corresponding dimensionality methods. }
+    \label{tab:base-santander }
+\end{table*}
+
+# SVD 
+
+
+
+
+# PCA 
+
+
+# SKPP 
+
