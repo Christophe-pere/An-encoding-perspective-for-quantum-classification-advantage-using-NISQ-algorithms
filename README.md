@@ -29,15 +29,20 @@ List:
 
 ## Libraries
 
-For this study we used `scikit-learn` (`sklearn`) for classical machine learning models and `Pennylane` for the `VQA` classifier. The `cross_validate` and `train_test_spli` functions were also imported from `sklearn`. 
+For this study we used `scikit-learn` (`sklearn`) for classical machine learning models and `Pennylane` for the `VQA` classifier. The quantum kernel used for the `QSVC` is imported from `Qiskit`. The `cross_validate` and `train_test_spli` functions were also imported from `sklearn`. 
+
+- LR, CART, KNN, NB, and SVM are implemented with `sklearn`
+- QSVC is the SVC algorithm provided by `sklearn` using a quantum kernel available with `Qiskit`. 
+- VQC is implemented with `Pennylane`
 
 ## Datasets 
 
-
+We used two datasets: [UCI Credit Card fraud](https://www.kaggle.com/datasets/uciml/default-of-credit-card-clients-dataset) and a [Fraud bank dataset](https://www.kaggle.com/datasets/volodymyrgavrysh/fraud-detection-bank-dataset-20k-records-binary). This choice was made to be close to the real-world where datasets have a lot of features. 
 
 
 ## Results 
 
+Below you will find the main results of the paper. 
 
 ### UCI Credit Card 
 
