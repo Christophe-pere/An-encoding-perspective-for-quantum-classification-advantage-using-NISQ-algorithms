@@ -44,8 +44,8 @@ For this study we used `scikit-learn` (`sklearn`) for classical machine learning
 #### Baseline 
 
 | Algorithm | Precision  | Recall | f1-score | Matthews | Balanced | 
-|     -     |      (%)     |   (%)    |   (%)    | corcorref (%) | Accuracy (%) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
+|     -     |      (%)     |   (%)    |   (%)    | corcorref (%) | Accuracy (%) |
 | LR | 0.00 (0.00) | 0.00 (0.00) | 0.00 (0.00) | -0.22 (0.44) | 49.99 (0.01) |
 | KNN | **38.74** (2.03) | 15.45 (1.51) | 22.07	(1.76) | 12.43 (0.76) | 54.26 (0.65) |
 | CART | 37.79 (1.51) | 40.53 (1.51) | **39.10** (1.34) | **20.99** (1.45) | **60.76** (0.75) |
@@ -55,8 +55,8 @@ For this study we used `scikit-learn` (`sklearn`) for classical machine learning
 #### Quantum 
 
 | Algorithm | Precision  | Recall | f1-score | Matthews | Balanced | 
-|     -     |      (%)     |   (%)    |   (%)    | corcorref (%) | Accuracy (%) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
+|     -     |      (%)     |   (%)    |   (%)    | corcorref (%) | Accuracy (%) |
 | QSVC (SVD) | 20.00 (40.00) | 2.21 (4.82) | 3.92 (8.45) | 5.98 (12.30) | 51.10 (2.41) |
 | VQA (SVD) | 77.50 | 26.72 | 39.74 | 19.75 | 58.00 | 
 | QSVC (PCA) | 12.00 (29.93) | 1.06 (2.14) | 1.88 (3.84) | 0.51 (8.04) | 49.93 (1.30) |
@@ -64,7 +64,7 @@ For this study we used `scikit-learn` (`sklearn`) for classical machine learning
 | QSVC (SKPP) |  0.0 (0.0) | 0.0 (0.0) |  0.0 (0.0) | 0.0 (0.0) | 50.0 (0.0) |
 | VQA (SKPP) | 25.58 | 27.5 | 26.51 |  7.3 | 53.75 | 
 | QSVC (LDA) | 67.02 (13.31) | 33.44 (10.08) | 43.96 (10.97) | 38.51 (10.97) | 64.6 (5.08) |
-| VQA (LDA) | 41.30 | **100.00 | **58.46 | **59.28** | **92.54** |
+| VQA (LDA) | 41.30 | **100.00** | **58.46** | **59.28** | **92.54** |
 
 
 ### Fraud bank 
